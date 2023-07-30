@@ -4,7 +4,7 @@ function ListaDeProductos({ agregarAlCarrito, irAlCarrito }) {
   // Estado para almacenar la lista de productos
   const [productos, setProductos] = useState([]);
   // Estado para almacenar un posible error al obtener los productos
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(null);  
 
   useEffect(() => {
     // Realizar la solicitud a la API para obtener los productos

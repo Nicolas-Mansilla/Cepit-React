@@ -133,3 +133,46 @@ h1 {
   max-width: 100px; /* Ajusta el tamaño de la imagen*/
   height: auto;
 }
+
+/* Estilos para el navbar */
+.navbar {
+  background-color: #343a40; /* Color de fondo del navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Tamaño de fuente del nombre de la tienda */
+}
+
+.navbar-toggler {
+  border: none; /* Quitamos el borde del botón del menú */
+}
+
+.navbar-toggler-icon {
+  background-color: white; /* Color del ícono del menú */
+}
+
+/* Estilos para el botón del carrito */
+.btn-outline-light {
+  color: white; /* Color del texto del botón */
+  border-color: white; /* Color del borde del botón */
+}
+
+.btn-outline-light:hover {
+  background-color: white; /* Color de fondo al pasar el mouse */
+  color: #343a40; /* Color del texto al pasar el mouse */
+}
+
+/* Estilos para el contenido */
+.container {
+  margin-top: 20px; /* Espacio entre el navbar y el contenido */
+}
+
+/* Estilos para el carrito */
+.carrito {
+  margin-top: 20px; /* Espacio entre el carrito y el contenido */
+}
+
+.card {
+  width: 18rem; /* Ancho de las tarjetas del carrito */
+  margin-bottom: 20px; /* Espacio entre las tarjetas del carrito */
+}
